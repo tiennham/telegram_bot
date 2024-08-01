@@ -43,7 +43,7 @@ async def news(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # def getlist(request):
 #     product = Product.object.all()
 #     return render(request, "product.html", product: "product")
-tele_token = '7400665111:AAGoNT-SaGmGJZUzJRw9l-cWyQTWX-eNBSA'
+tele_token = 'YOUR_CHATBOT_TOKEN'
 app = ApplicationBuilder().token(tele_token).build()
 # updater = Updater('7400665111:AAGoNT-SaGmGJZUzJRw9l-cWyQTWX-eNBSA', )
 
